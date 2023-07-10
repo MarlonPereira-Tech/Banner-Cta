@@ -1,0 +1,40 @@
+*{margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+section.bg{
+    position:relative;
+    width:100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://thumbs.dreamstime.com/b/black-unique-background-programming-php-laptop-computer-screen-program-code-html-css-site-web-developing-template-website-166630498.jpg');
+}
+.layer{
+    position:absolute;
+    width:100vw;
+    height: 100vh;
+    left:0;
+    top:0;
+    background-color: rgba(0,0,0, 0.7);
+}
+.chamada a{
+    width:95%;
+    max-width: 300px;
+    position:absolute;
+    text-align: center;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding:8px 20px;
+    border-radius: 10px;
+    border:1px solid #e7426b;
+    text-decoration: none;
+    display:block;
+    font-size: 23px;
+    background-color: #e7426b;
+    color:white;
+}
